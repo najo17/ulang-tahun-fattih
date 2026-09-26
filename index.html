@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Undangan ulang tahun digital">
+    <title>Undangan Ulang Tahun</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Dekorasi background -->
+    <div class="decor decor-1"></div>
+    <div class="decor decor-2"></div>
+    <div class="decor decor-3"></div>
+
+    <!-- ==================== COVER ==================== -->
+    <section class="cover" id="cover">
+        <div class="cover-card">
+            <div class="floating-star star-1">✦</div>
+            <div class="floating-star star-2">✧</div>
+            <div class="floating-star star-3">✦</div>
+
+            <p class="small-title">ANDA DIUNDANG KE</p>
+
+            <div class="cake-icon">🎂</div>
+
+            <h1>Pesta<br><span>Ulang Tahun</span></h1>
+
+            <p class="cover-name">Ulang Tahun Fattih</p>
+
+            <p class="cover-date">Sabtu · 10 Oktober 2026</p>
+
+            <button id="openInvitation" class="open-button" type="button">
+                Buka Undangan
+                <span>♡</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- ==================== MAIN ==================== -->
+    <main id="mainContent" class="hidden">
+
+        <!-- HERO -->
+        <section class="hero section">
+            <div class="balloon balloon-pink"></div>
+            <div class="balloon balloon-blue"></div>
+
+            <div class="hero-content">
+                <p class="eyebrow">MARI RAYAKAN BERSAMA</p>
+
+                <h2>Hari<br><span>Ulang Tahunku!</span></h2>
+
+                <div class="photo-frame">
+                    <!-- Ganti src dengan foto sendiri -->
+                    <img src="assets/foto-ulang-tahun.png"
+                         alt="Foto ulang tahun"
+                         onerror="this.src='https://placehold.co/600x600/F8C8DC/FFFFFF?text=Foto+Ulang+Tahun'">
+                </div>
+
+                <h3>Fattih Andris Daulyan</h3>
+
+                <p class="age">Berusia <strong>8</strong> Tahun</p>
+            </div>
+        </section>
+
+        <!-- UNDANGAN -->
+        <section class="invitation section">
+            <div class="container">
+                <div class="section-card">
+                    <span class="card-icon">💌</span>
+
+                    <p class="eyebrow">SEBUAH UNDANGAN</p>
+
+                    <h2>Ayo Hadir dan<br>Rayakan Bersamaku!</h2>
+
+                    <p class="description">
+                        Hai! Aku ingin mengajak kamu untuk datang dan
+                        merayakan hari ulang tahunku bersama.
+                        Kehadiranmu akan membuat hari spesial ini
+                        menjadi lebih menyenangkan dan berkesan.
+                    </p>
+
+                    <div class="divider">
+                        <span>♡</span>
+                    </div>
+
+                    <p class="closing-text">Sampai bertemu di sana!</p>
+                </div>
+            </div>
+        </section>
+
+<!-- DETAIL ACARA -->
+<section class="details section">
+    <div class="container">
+
+        <p class="eyebrow">CATAT TANGGALNYA</p>
+
+        <h2 class="section-title">Detail Acara</h2>
+
+        <div class="detail-grid">
+
+            <div class="detail-card pink-card">
+                <div class="detail-icon">📅</div>
+
+                <h3>Tanggal</h3>
+
+                <p>Sabtu</p>
+
+                <strong>10 Oktober 2026</strong>
+            </div>
+
+            <div class="detail-card blue-card">
+                <div class="detail-icon">⏰</div>
+
+                <h3>Waktu</h3>
+
+                <p>Mulai pukul</p>
+
+                <strong>13.00 - 15.00 WIB</strong>
+            </div>
+
+            <div class="detail-card purple-card">
+                <div class="detail-icon">📍</div>
+
+                <h3>Tempat</h3>
+
+                <p>Saung Lentera</p>
+
+                <strong>Depok, Jawa Barat</strong>
+            </div>
+
+        </div>
+
+
+        <!-- ==================== LOKASI ==================== -->
+
+        <div class="location-map">
+
+            <div class="location-title">
+                <span>📍</span>
+                <div>
+                    <h3>Lokasi Acara</h3>
+                    <p>Saung Lentera, Depok</p>
+                </div>
+            </div>
+
+            <div class="map-container">
+
+                <!-- Google Maps -->
+                <iframe
+                    src="https://www.google.com/maps?q=Saung%20Lentera%20Depok&output=embed"
+                    loading="lazy"
+                    allowfullscreen
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+                <!-- Area klik menuju lokasi -->
+                <a
+                    href="https://maps.app.goo.gl/kEyJLBxMMMny3dLMA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="map-link"
+                    aria-label="Lihat lokasi acara di Google Maps">
+                </a>
+
+            </div>
+
+            <p class="map-info">
+                Klik peta untuk melihat lokasi acara
+            </p>
+
+        </div>
+
+    </div>
+</section>
+
+        <!-- COUNTDOWN -->
+        <section class="countdown-section section">
+            <div class="container">
+
+                <div class="countdown-card">
+
+                    <p class="eyebrow">MENUJU HARI ULANG TAHUN</p>
+
+                    <h2>Menghitung Hari</h2>
+
+                    <div class="countdown" id="countdown">
+
+                        <div class="count-box">
+                            <span id="days">00</span>
+                            <small>Hari</small>
+                        </div>
+
+                        <div class="count-box">
+                            <span id="hours">00</span>
+                            <small>Jam</small>
+                        </div>
+
+                        <div class="count-box">
+                            <span id="minutes">00</span>
+                            <small>Menit</small>
+                        </div>
+
+                        <div class="count-box">
+                            <span id="seconds">00</span>
+                            <small>Detik</small>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PENUTUP -->
+        <section class="closing section">
+
+            <div class="closing-decoration">✦</div>
+
+            <div class="container">
+
+                <div class="closing-card">
+
+                    <div class="cake-icon small">🎂</div>
+
+                    <p class="eyebrow">TIDAK SABAR BERTEMU KAMU</p>
+
+                    <h2>Sampai<br><span>Jumpa!</span></h2>
+
+                    <p>
+                        Terima kasih sudah meluangkan waktu
+                        untuk datang dan merayakan hari ulang
+                        tahunku bersama.
+                    </p>
+
+                    <div class="signature">
+                        Salam hangat,<br>
+                        <strong>Fattih</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>Dibuat dengan ♡ untuk Ulang Tahun Fattih</p>
+        </footer>
+
+    </main>
+
+    <!-- Musik ulang tahun -->
+<audio id="birthdayMusic" loop>
+    <source src="assets/music.mp3" type="audio/mpeg">
+</audio>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
