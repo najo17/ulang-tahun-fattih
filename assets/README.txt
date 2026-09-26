@@ -1,0 +1,1 @@
+Masukkan foto dengan nama foto-ulang-tahun.jpg dan musik dengan nama music.mp3 di folder ini.
